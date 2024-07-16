@@ -5,6 +5,8 @@ mixer.audioDB = [
     }
 ];
 
+mixer.play('pipe', 0);
+
 $(document).on('click', function() {
     mixer.play('pipe', 0.75);
 });
